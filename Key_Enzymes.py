@@ -19,4 +19,5 @@ DsrMKJOP = Key_Enzymes('dsrMKJOP complex', 'Sulfite reduction', 'EC:1.7.5.1 1.7.
 DsrN = Key_Enzymes('')
 DsrD = Key_Enzymes('')
 Sat = Key_Enzymes('sat', 'Sulfur oxidation', 'EC:2.7.7.4')
-AprBA = Key_Enzymes('aprBA', 'Sulfur oxidation', 'EC:1.8.4.9')
+aprBA = Key_Enzymes('aprBA', 'Sulfur oxidation', 'EC:1.8.4.9')
+qmoABC = Key_Enzymes ('qmoABC', 'Sulfate reduction', '-')
