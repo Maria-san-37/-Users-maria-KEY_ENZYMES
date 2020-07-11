@@ -17,7 +17,7 @@ class Key_Enzymes(object):
 
 
 
-
+'''Sulfur pathways'''
 DsrA = Key_Enzymes('dsrA', 'Dissimilatory [bi] sulfite reductase','1.8.99.5')
 DsrB = Key_Enzymes('dsrB','Dissimilatory [bi] sulfite reductase', '1.8.99.5' )
 DsrC = Key_Enzymes('dsrc', 'Sulfite reduction', '')
@@ -32,6 +32,8 @@ asrABC = Key_Enzymes('asrABC', 'Anaerobic sulfite reductase', '')
 fsr = Key_Enzymes('fsr', 'sulfur assimilation', '')
 phsABC = Key_Enzymes('phsABC', 'Thiosulfate reductase', '')
 
+
+'''Fixation_pathways'''
 RubiscO = Key_Enzymes('RubisCO', 'Reductive pentose phosphate cycle', '2.1.1.127')
 RubiscO.add_taxonomy('Cyanobacteria, Alphaproteobacteria, Betaproteobacteria, Gammaproteobacteria, Zetaproteobacteria,Sulfobacillusspp., Oscillochloridaceae')
 PRK = Key_Enzymes ('phosphoribulokinase', 'Reductive pentose phosphate cycle','2.7.1.19')
